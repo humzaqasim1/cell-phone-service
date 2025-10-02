@@ -9,7 +9,8 @@ public class CellPhoneApplication {
         display(phone1);
         display(phone2);
         phone1.dial(phone2.getOwner());
-        phone2.dial(phone1.getOwner());
+        phone2.dial(phone1);
+
 
 
     }
